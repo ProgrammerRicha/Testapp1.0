@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Welcome to Docker webinar! 🚀</h1>
+    <p>"Once you sign up on the platform, you will be automatically enrolled in the Docker webinar."</p>
+
+    <form action="/addUser" method="POST" target="_blank" id="signupForm">
+        <div class="field">
+            <label for="email">Gmail: </label>
+            <input type="text" placeholder="richayadav@gmail.com" name="email">
+        </div>
+        <div class="field">    
+        <label for="username">Username: </label>
+            <input type="text" placeholder="Richa Yadav" name="username">
+        </div>
+        <div class="field">
+            <label for="password">Password: </label>
+            <input type="password" placeholder="password" name="password">
+        </div>
+        
+        <button id="formBtn">Create Account</button>
+        
+    </form>
+</body>
+
+</html>
